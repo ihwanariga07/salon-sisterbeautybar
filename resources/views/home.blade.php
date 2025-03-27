@@ -74,7 +74,7 @@
     </section>
 
     <footer class="bg-dark text-white text-center py-3">
-        &copy; Salon Kecantikan
+        &copy;Salon Kecantikan
     </footer>
 
     <script src="{{ asset('js/bootstrap.bundle.js') }}"></script>
