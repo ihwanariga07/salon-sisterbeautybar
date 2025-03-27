@@ -33,7 +33,10 @@
         </div>
     </nav>
 
-    
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Selamat Datang di Salon Kecantikan</h1>
+        <p>Tempat terbaik untuk perawatan kecantikan Anda</p>
+    </header>
 
 
 
