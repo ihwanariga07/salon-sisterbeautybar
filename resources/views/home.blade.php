@@ -68,7 +68,14 @@
             </div>
         </div>
     </section>
+    <section id="contact" class="container py-5">
+        <h2 class="text-center">Kontak Kami</h2>
+        <p class="text-center">Hubungi kami untuk reservasi atau informasi lebih lanjut.</p>
+    </section>
 
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; Salon Kecantikan
+    </footer>
 
     <script src="{{ asset('js/bootstrap.bundle.js') }}"></script>
     <script src="{{ asset('js/bootstrap.js') }}"></script>
