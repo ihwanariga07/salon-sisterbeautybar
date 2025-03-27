@@ -38,6 +38,11 @@
         <p>Tempat terbaik untuk perawatan kecantikan Anda</p>
     </header>
 
+    <section id="about" class="container py-5">
+        <h2 class="text-center">Tentang Kami</h2>
+        <p class="text-center">Salon kami menyediakan layanan kecantikan berkualitas dengan tenaga profesional.</p>
+    </section>
+
 
 
     <script src="{{ asset('js/bootstrap.bundle.js') }}"></script>
