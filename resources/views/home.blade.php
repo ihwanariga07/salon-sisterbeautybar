@@ -5,14 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     <title>Salon SisterBeautyBar</title>
     <style>
+
+
         .navbar-nav .nav-link {
             transition: color 0.3s ease-in-out;
         }
         .navbar-nav .nav-link:hover {
             color: #f8b400 !important;
         }
+        .header-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .header-container {
+            position: relative;
+            text-align: center;
+        }
+
+        .header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
     </style>
 </head>
 <body>
@@ -43,8 +74,9 @@
         </div>
     </nav>
 
-    <header class="text-center py-2">
+    <header class="header-container">
         <img src="{{ asset('images/header-image.png') }}" alt="Salon Welcome Image" class="img-fluid w-100">
+        <div class="header-text">Selamat Datang di Salon SisterBeautyBar</div>
     </header>
 
     <section id="about" class="container py-5">
@@ -83,7 +115,7 @@
     </section>
 
     <footer class="bg-dark text-white text-center py-3">
-        &copy;Salon Kecantikan
+        Create by Ihwan Ariga
     </footer>
 
     <script src="{{ asset('js/bootstrap.bundle.js') }}"></script>
