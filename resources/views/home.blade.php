@@ -43,9 +43,8 @@
         </div>
     </nav>
 
-    <header class="bg-primary text-white text-center py-5">
-        <h1>Selamat Datang di Salon Kecantikan</h1>
-        <p>Tempat terbaik untuk perawatan kecantikan Anda</p>
+    <header class="text-center py-2">
+        <img src="{{ asset('images/header-image.png') }}" alt="Salon Welcome Image" class="img-fluid w-100">
     </header>
 
     <section id="about" class="container py-5">
