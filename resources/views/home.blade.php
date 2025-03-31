@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     <title>Salon SisterBeautyBar</title>
+    
     <style>
         .navbar-nav .nav-link:hover {
             color: #f8b400 !important;
@@ -22,20 +23,81 @@
             font-weight: bold;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
-        .related-articles {
-            background-color: #f8f9fa;
-            padding: 40px 0;
-        }
-        .salon-showcase {
-            background-color: #fff3e0;
-            padding: 60px 0;
+        .facilities {
+            background: linear-gradient(to right, #f76d2b, #d30b34);
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
             text-align: center;
         }
-        .salon-showcase img {
-            max-width: 100%;
-            border-radius: 10px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        .facilities div {
+            flex: 1;
         }
+        .facilities i {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+
+
+
+
+
+        body {
+    font-family: Arial, sans-serif;
+}
+
+.share-post {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.share-post h3 {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.salon-detail {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.salon-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.blue {
+    background-color: #007bff;
+}
+
+.teal {
+    background-color: #20c997;
+}
     </style>
 </head>
 <body>
@@ -119,6 +181,45 @@
         <h2 class="text-center">Kontak Kami</h2>
         <p class="text-center">Hubungi kami untuk reservasi atau informasi lebih lanjut.</p>
     </section>
+
+    <section class="facilities">
+        <div>
+            <i class="fas fa-wheelchair"></i>
+            <p>Explore Facilities</p>
+        </div>
+        <div>
+            <i class="fas fa-bus"></i>
+            <p>Shuttle & Car Park</p>
+        </div>
+        <div>
+            <i class="fas fa-download"></i>
+            <p>Download E-Magz</p>
+        </div>
+        <div>
+            <i class="fas fa-shopping-cart"></i>
+            <p>Leasing Inquiry</p>
+        </div>
+        <div>
+            <i class="fas fa-th"></i>
+            <p>Summarecon Apps</p>
+        </div>
+    </section>
+
+    <div class="share-post">
+        <h3>SHARE THIS POST</h3>
+        <div class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="googleplus-icon.png" alt="Google Plus"></a>
+        </div>
+    </div>
+
+    <div class="salon-detail">
+        <img src="logo.png" alt="" class="salon-logo">
+        <h4>SALON SISTERBEAUTYBAR</h4>
+        <a href="#" class="button blue">SEE ON MAP</a>
+        <a href="#" class="button teal">MORE DETAIL</a>
+    </div>
 
     <footer class="bg-dark text-white text-center py-3">
         Create by Ihwan Ariga
