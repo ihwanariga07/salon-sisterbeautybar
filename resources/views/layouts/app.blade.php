@@ -78,10 +78,10 @@
     </main>
 
     <div class="top-bar d-flex flex-wrap justify-content-center gap-5">
-        <a href="#"><i class="bi bi-bus-front"></i> Shuttle & Car Park</a>
-        <a href="#"><i class="bi bi-download"></i> Download E-Magz</a>
+        <a href="#"><i class="bi bi-bus-front"></i>Car Park</a>
+        <a href="#"><i class="bi bi-download"></i> Download E-Book</a>
         <a href="#"><i class="bi bi-cart"></i> Leasing Inquiry</a>
-        <a href="#"><i class="bi bi-grid"></i> Summarecon Apps</a>
+        <a href="#"><i class="bi bi-grid"></i> Salon Apps</a>
     </div>
 
     <div class="footer">
