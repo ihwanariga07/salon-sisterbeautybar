@@ -18,3 +18,7 @@ Route::get('/', [HomeController::class, 'index']);
 
 use App\Http\Controllers\AboutController;
 Route::get('/about', [AboutController::class, 'index'])->name('about');
+
+
+use App\Http\Controllers\ServiceController;
+Route::get('/services', [ServiceController::class, 'index'])->name('services');
