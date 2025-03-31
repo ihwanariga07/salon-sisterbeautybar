@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     <title>Salon SisterBeautyBar</title>
-    
+
     <style>
         .navbar-nav .nav-link:hover {
             color: #f8b400 !important;
@@ -46,59 +46,54 @@
             padding: 15px 0;
         }
 
+                body {
+            font-family: Arial, sans-serif;
+        }
 
+        .share-post {
+            text-align: left;
+            margin: 20px 0;
+        }
 
+        .share-post h3 {
+            margin-bottom: 10px;
+        }
 
+        .social-icons {
+            display: flex;
+            gap: 10px;
+        }
 
+        .salon-detail {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin-top: 20px;
+            text-align: center;
+        }
 
-        body {
-    font-family: Arial, sans-serif;
-}
+        .salon-logo {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
 
-.share-post {
-    text-align: left;
-    margin: 20px 0;
-}
+        .button {
+            padding: 10px 15px;
+            color: white;
+            text-decoration: none;
+            margin: 5px;
+            display: inline-block;
+            border-radius: 5px;
+        }
 
-.share-post h3 {
-    margin-bottom: 10px;
-}
+        .blue {
+            background-color: #007bff;
+        }
 
-.social-icons {
-    display: flex;
-    gap: 10px;
-}
-
-.salon-detail {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border: 1px solid #ddd;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.salon-logo {
-    max-width: 100px;
-    margin-bottom: 10px;
-}
-
-.button {
-    padding: 10px 15px;
-    color: white;
-    text-decoration: none;
-    margin: 5px;
-    display: inline-block;
-    border-radius: 5px;
-}
-
-.blue {
-    background-color: #007bff;
-}
-
-.teal {
-    background-color: #20c997;
-}
-    </style>
+        .teal {
+            background-color: #20c997;
+        }
+            </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
