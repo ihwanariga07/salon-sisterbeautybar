@@ -60,7 +60,7 @@
                     <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Beranda</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">Tentang Kami</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('services') }}">Layanan</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('kontak') }}">Kontak</a></li>
                 </ul>
             </div>
         </div>
