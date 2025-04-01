@@ -26,3 +26,8 @@ Route::get('/services', [ServiceController::class, 'index'])->name('services');
 
 use App\Http\Controllers\KontakController;
 Route::get('/kontak', [KontakController::class, 'index'])->name('kontak');
+
+
+use App\Http\Controllers\ContactController;
+Route::get('/kontak-kami', [KontakController::class, 'index'])->name('contact.index');
+
