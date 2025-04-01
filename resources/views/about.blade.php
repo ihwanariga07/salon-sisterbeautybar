@@ -7,7 +7,7 @@
 <div class="container mt-5">
     <div class="row align-items-center">
         <div class="col-md-6">
-            <img src="{{ asset('images/about-us.jpg') }}" class="img-fluid rounded shadow" alt="About Us">
+            <img src="{{ asset('images/about-us.png') }}" class="img-fluid rounded shadow" alt="About Us">
         </div>
         <div class="col-md-6">
             <h2 class="fw-bold">Tentang Kami</h2>

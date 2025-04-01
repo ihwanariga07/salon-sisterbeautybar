@@ -37,26 +37,6 @@
         </div>
     </section>
 
-    <section id="about" class="container py-5 text-center">
-        <h2>Tentang Kami</h2>
-        <p>Salon kami menyediakan layanan kecantikan berkualitas dengan tenaga profesional.</p>
-    </section>
-
-    <section id="services" class="bg-light py-5 text-center">
-        <div class="container">
-            <h2>Layanan Kami</h2>
-            <div class="row mt-4">
-                <div class="col-md-4"><div class="card p-3"><h4>Potong Rambut</h4><p>Layanan potong rambut terbaik dengan gaya modern.</p></div></div>
-                <div class="col-md-4"><div class="card p-3"><h4>Facial</h4><p>Perawatan wajah untuk kulit sehat dan bersinar.</p></div></div>
-                <div class="col-md-4"><div class="card p-3"><h4>Manicure & Pedicure</h4><p>Perawatan kuku profesional untuk tampilan sempurna.</p></div></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="container py-5 text-center">
-        <h2>Kontak Kami</h2>
-        <p>Hubungi kami untuk reservasi atau informasi lebih lanjut.</p>
-    </section>
 
 @endsection
 
