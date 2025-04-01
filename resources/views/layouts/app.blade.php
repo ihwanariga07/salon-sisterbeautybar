@@ -14,6 +14,7 @@
             padding: 15px 0;
             text-align: center;
         }
+
         .top-bar a {
             color: white;
             text-decoration: none;
@@ -21,28 +22,45 @@
             padding: 10px 15px;
             display: inline-block;
         }
+
         .footer {
             background: #f1f1f1;
             padding: 30px 10px;
             text-align: center;
         }
+
         .footer a {
             color: black;
             text-decoration: none;
             font-weight: 500;
         }
+
         .footer a:hover {
             text-decoration: underline;
         }
+
         .subscribe-input {
             width: 250px;
             margin: 5px;
         }
+
         .subscribe-container {
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 10px;
+        }
+
+        .navbar-nav .nav-link {
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ff6a00;
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -57,15 +75,22 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Beranda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">Tentang Kami</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('services') }}">Layanan</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('kontak') }}">Kontak</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('/') }}">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('about') }}">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('services') }}">Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('kontak') }}">Kontak</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-
 
     <header class="position-relative text-center text-white">
         <img src="{{ asset('images/header-image.png') }}" alt="Salon Welcome Image" class="img-fluid w-100">
@@ -101,7 +126,7 @@
         </div>
         <p class="mt-3">
             <a href="#">Careers</a> | <a href="#">About Us</a> | <a href="#">Gallery</a> | <a href="#">News</a> |
-            <a href="#">salon Map</a> | <a href="#">Leasing</a> | <a href="#">Contact Us</a> | <a href="#">Disclaimer</a>
+            <a href="#">Salon Map</a> | <a href="#">Leasing</a> | <a href="#">Contact Us</a> | <a href="#">Disclaimer</a>
         </p>
     </div>
 

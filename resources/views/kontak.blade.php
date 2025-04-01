@@ -10,10 +10,11 @@
     <div class="row">
         <div class="col-md-6">
             <h4>Informasi Kontak</h4>
-            <p><strong>Alamat:</strong> Jl. Tengku Nyak Makam, Kec. Ulee Kareng, Pango Raya</p>
+            <p><strong>Alamat:</strong> Jl. Tengku Nyak Makam, Kec. Ulee Kareng, Pango Raya, Banda Aceh</p>
             <p><strong>Email:</strong> sisterbeautybar@gmail.com</p>
             <p><strong>Telepon:</strong> +62 812 3456 5050</p>
-            <p><strong>Jam Operasional:</strong> 10:00 - 22:00 WIB</p>
+            <p><strong>Jam Operasional:</strong> 10:00 - 22:00 WIB <p>Minggu Tutup</p></p>
+
         </div>
 
         <div class="col-md-6">
